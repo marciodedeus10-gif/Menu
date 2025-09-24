@@ -10,10 +10,10 @@ import TelaContato from "./telas/TelaContato";
 function App () {
   return (
     <NavigationContainer>
-      <Drawer.Navigator initialRouteName="Inicial">
-        <Drawer.Screen name="Inicio" component={TelaInicio} />>
-        <Drawer.Screen name="Sobre" component={TelaSobre} />>
-        <Drawer.Screen name="Contato" component={TelaContato}/>>
+      <Drawer.Navigator initialRouteName="Inicio">
+        <Drawer.Screen name="Inicio" component={TelaInicio} />
+        <Drawer.Screen name="Sobre" component={TelaSobre} />
+        <Drawer.Screen name="Contato" component={TelaContato}/>
       </Drawer.Navigator>
     </NavigationContainer>
   );
